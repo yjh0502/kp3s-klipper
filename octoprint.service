@@ -1,0 +1,13 @@
+[Unit]
+Description=octoprint
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi
+ExecStart=/home/pi/.local/bin/octoprint serve -4
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
