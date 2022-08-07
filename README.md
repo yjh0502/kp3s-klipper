@@ -5,7 +5,9 @@ hardware config
  - BLTouch sensor attached at Z+ endstop (PC4), with 3d-printed mount [1]
 
 software
- - klipper, 4d4c8d8f
+ - klipper `a709ba43`
 
+references
+ - https://kingroon.com/blogs/3d-print-101/how-to-prepare-klipper-firmware-for-kingroon-kp3s-using-fluiddpi
 
 [1] https://www.thingiverse.com/thing:4816601
